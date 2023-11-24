@@ -1,0 +1,48 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Vista Docente</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <h1>Bienvenido</h1><br><br>
+
+  <div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Mis Clases</ion-card-title>
+      </ion-card-header>
+      <ion-list>
+        <ion-item>
+          <h6>Clase 1</h6>
+          <ion-button slot="end">Iniciar</ion-button>
+        </ion-item>
+        <ion-item>
+          <h6>Clase 2</h6>
+          <ion-button slot="end">Iniciar</ion-button>  
+        </ion-item>
+        <ion-item>
+          <h6>Clase 3</h6>
+          <ion-button slot="end">Iniciar</ion-button>
+        </ion-item>
+      </ion-list>
+      <ion-card-content>
+        Todas las clases se mostrarán aqui.
+        
+      </ion-card-content>
+    </ion-card>
+    <img src="https://storage.googleapis.com/qr-code-gen/qrcode_images/image_116r0kF.jpg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=qr-code-gen%40bestreviews-200115.iam.gserviceaccount.com%2F20231124%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20231124T032606Z&X-Goog-Expires=86400&X-Goog-SignedHeaders=host&X-Goog-Signature=9ad318b6ed6bd01e12c7d3967c64ec571d4fea10fefe71e2e5c81ad414b0f35f6bec69b6774a988240f9a87354a0f577af8267c0e37bd249abb69fae7ed234ba45d0150a96ea10563a784eb37f49e1d96ddac240d1442a44cf08df658fc089e41693088bc76bd751139d4485011c977a4eb0f4614d3b5e772d27773a089e5e8d87e2feba14accd4ab509ccf05b098a4c7c849e91e5e27cb5de4aa807c16b5806e5d16f886c18fd956a7ee008efcba9d51d380069a51e7134b493b085e8948c299601333e99f9d13fc6c6a169063f7709b7edd6bfbd1d754ea02d7ae821212aa34326900480a4ccf17ce47c91e5c9bfc3726b1b60d3286a5b5518e0c7f729a58d" alt="qr" width="50%">
+
+  </div>
+</ion-content>
+
+<ion-tabs>
+  <ion-tab-bar slot="bottom">
+    <ion-tab-button tab="">
+      <ion-icon name="home"></ion-icon>Home
+    </ion-tab-button>
+    <ion-tab-button (click)="perfil()">
+      <ion-icon name="card"></ion-icon>Perfil
+    </ion-tab-button>
+  </ion-tab-bar>
+</ion-tabs>
