@@ -1,2 +1,2 @@
 # Aplicacion
-alooo app casi
+App RegsitrAPP
